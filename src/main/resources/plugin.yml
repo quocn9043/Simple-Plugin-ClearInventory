@@ -1,0 +1,13 @@
+name: "ClearInventory"
+version: "1.0"
+main: "vb.$clearinventory.PluginMain"
+api-version: 1.13
+authors: [QuocNguyen]
+description: "Sourecode Plugin ClearInventory"
+prefix: "/"
+commands:
+  clearinv:
+    aliases: [clearinventory]
+    permission: "clear.inv"
+    usage: "&7[&6ClearInventory&7] &aYour inventory has cleared"
+permissions:
